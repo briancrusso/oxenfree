@@ -1,0 +1,147 @@
+.header {
+    height: 5em;
+    width: 100%;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    display: inline;
+}
+
+.logo {
+    display: inline;
+    margin-top: 1.5em;
+    margin-left: 3em;
+}
+
+.menu {
+    display: inline;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+    float: right;
+    margin-top: 2em;
+    margin-right: 1em;
+}
+
+.about,
+.boxes {
+    display: table;
+    width: 103%;
+    height: 100%;
+    vertical-align: middle;
+    margin: -1em;
+}
+
+.about {
+    display: none;
+}
+
+.pics {
+    margin-top: 2em;
+    margin-bottom: 10em;
+} 
+
+.menu a {
+    display: inline;
+    padding: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+.box {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.description {
+    width: 30%;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    display: table-cell;
+    text-align: center;
+    vertical-align: top;
+}
+
+.description p {
+    padding-left: 5em;
+    padding-right: 3em;
+}
+
+.box1 {
+    background-image: url('img/Nat1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.box2 {
+    background-image: url('img/story2.jpg');
+    background-repeat: none;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.box2:hover {
+    background-image: url('img/kelly.jpg');
+}
+
+.box3 {
+    background-image: url('img/story3.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.box3:hover {
+    background-image: url('img/jake.jpg');
+}
+
+
+.footer {
+    position: fixed;
+    width: 103%;
+    bottom: 0;
+    background-color: white;
+    margin-bottom: -3em;
+     margin-left: -2em;
+}
+
+.footer p {
+    float: left;
+   font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    color: black;
+    margin-left: 2em;
+}
+
+.icons {
+    width: 400px;
+    position: relative;
+    margin: auto;
+    margin-top: 2.5em;
+    margin-bottom: 5em;
+    float: right;
+    margin-right: 3em;
+}
+
+.icons a {
+    color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    display: inline;
+    padding: 1.25em;
+}
+
+.icons a:hover {
+    color:  #6E727A;
+}
+
+img {
+    padding-bottom: 1.5em;
+}
+
+html,
+body {
+    height: 100%;
+}
