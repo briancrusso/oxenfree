@@ -8,4 +8,7 @@ $(document).ready(function(){
 		$('.about').hide();
 		$('.boxes').show();
 	});
+		$('.fa-bars').click (function(){
+		$('.menu').toggle();
+	})
 });
