@@ -162,12 +162,16 @@ body {
 
     .footer {
         width: 105%;
-        margin-bottom: 0em;
+        margin-bottom: -5em;
     }
 
     .footer p {
+        font-size: .5em;
+        margin-left: 10%;
+    }
+
+    .icons a {
         font-size: .75em;
-        margin-left: 5%;
     }
     }
 
