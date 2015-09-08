@@ -153,8 +153,7 @@ body {
     }
 
     .menu {
-      margin-right: 7%;
-        display: block;  
+        display: none;  
     }
 
     .boxes {
@@ -167,7 +166,7 @@ body {
     }
 
     .footer p {
-        font-size: 1.25em;
+        font-size: .75em;
         margin-left: 5%;
     }
     }
