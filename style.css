@@ -170,6 +170,10 @@ body {
         margin-left: 10%;
     }
 
+    .icons {
+        margin-bottom: 7em;
+    }
+
     .icons a {
         font-size: .75em;
     }
