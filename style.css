@@ -20,13 +20,17 @@
     text-transform: uppercase;
 }
 
-.about,
+.stories,
 .boxes {
     display: table;
     width: 103%;
     height: 100%;
     vertical-align: middle;
     margin: -1em;
+}
+
+.stories {
+    display: none;
 }
 
 .about {
@@ -73,8 +77,15 @@
     padding-right: 3em;
 }
 
-.box1 {
+.front {
     background-image: url('img/Natpan.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.box1 {
+    background-image: url('img/story1.jpg');
+    background-repeat: none;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -202,8 +213,8 @@ body {
         font-size: .75em;
     }
     
-    .box1 {
-    background-image: url('img/Natcrop.jpg');
+    .front {
+    background-image: url('img/Nat1.jpg');
     }
 
 
