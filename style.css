@@ -9,6 +9,7 @@
 .logo {
     display: inline;
     margin-top: .5em;
+    margin-left: -.5em;
 }
 
 .menu {
@@ -28,13 +29,17 @@
     margin: -1em;
 }
 
-.stories {
-    display: table;
-    width: 100%;
-    height: 125%;
-    vertical-align: middle;
-    margin-left: 3em;
+.container {
+    width: 90%;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+}
 
+.block {
+    padding: 23%;
+    display: inline-block;
+    margin: 10px;
 }
 
 .about {
@@ -44,7 +49,7 @@
 .pics {
     margin-top: 2em;
     margin-bottom: 10em;
-} 
+}
 
 .menu_bars {
     display: none;
@@ -59,17 +64,6 @@
 
 .menu a:hover {
     text-decoration: underline;
-}
-
-.row {
-    display: table-row;
-    padding: 2em;
-}
-
-.box {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
 }
 
 .description {
@@ -87,44 +81,46 @@
 }
 
 .front {
-    background-image: url('img/Natpan.jpg');
-    background-size: 100%;
-    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    top: 5em;
+    left: 0;
+    overflow: auto;
 }
 
-.box1 {
-    background-image: url('img/story1.jpg');
+#nat {
+    background-image: url('img/nat1.jpg');
     background-repeat: none;
-    background-size: 75%;
+    background-size: contain;
     background-repeat: no-repeat;
-    padding: 2em;
 }
 
-.box2 {
-    background-image: url('img/story2.jpg');
+#nat:hover {
+    background-image: url('img/nat1over.jpg');
+}
+
+#roger {
+    background-image: url('img/roger.jpg');
     background-repeat: none;
-    background-size: 75%;
+    background-size: contain;
     background-repeat: no-repeat;
-    padding: 2em;
 }
 
-.box2:hover {
-    background-image: url('img/story2.jpg');
+#roger:hover {
+     background-image: url('img/rogerover.jpg');
 }
 
-.box3 {
-    background-image: url('img/story3.jpg');
-    background-size: 75%;
+#sam {
+    background-image: url('img/sam.jpg');
+    background-repeat: none;
+    background-size: contain;
     background-repeat: no-repeat;
-    margin-top: -10em;
-    position: relative;
-    left: 25%;
-    padding-bottom: 7em;
+    margin-top: -6em;
 }
 
-.box3:hover {
+#sam:hover {
+     background-image: url('img/samover.jpg');
 }
-
 
 .footer {
     position: fixed;
@@ -134,7 +130,6 @@
     margin-bottom: -5.5em;
     margin-left: -2em;
 }
-
 .footer p {
     float: left;
     font-family: 'Poiret One', cursive;
@@ -143,7 +138,6 @@
     margin-left: 1.25em;
     text-transform: uppercase;
 }
-
 .icons {
     position: relative;
     margin-top: .7em;
@@ -151,7 +145,6 @@
     margin-right: 1em;
     float: right;
 }
-
 .icons a {
     float: right;
     color: black;
@@ -160,41 +153,37 @@
     display: inline;
     padding: .75em;
 }
-
 .icons a:hover {
-    color:  #6E727A;
+    color: #6E727A;
 }
-
 img {
     padding-bottom: 1.5em;
 }
-
 html,
 body {
     height: 100%;
 }
-
 @media only screen and (max-width: 650px) {
     .logo {
         width: 75%;
         margin: auto;
         display: block;
     }
-
+    
     .menu {
         display: none;
         background-color: white;
         position: absolute;
         z-index: 1;
     }
-
+    
     .menu a {
         border: 1px solid black;
-        border-color: black;  
+        border-color: black;
         display: block;
         z-index: 1;
     }
-
+    
     .menu_bars {
         color: black;
         display: block;
@@ -204,47 +193,53 @@ body {
         font-size: 1.25em;
         padding: .5em;
     }
-
-    .boxes {
-        width: 110%; 
-    }
-
+    
     .footer {
         width: 105%;
         margin-bottom: -5em;
     }
-
+    
     .footer p {
         font-size: .5em;
         margin-left: 10%;
     }
-
+    
     .icons {
         bottom: 1em;
     }
-
+    
     .icons a {
         font-size: .75em;
     }
     
-    .front {
-    background-image: url('img/Nat1.jpg');
-    }
-
-    .stories {
-        display: block;
-    }
-
-    .box {
-        display: block;
-        height: 100%;
-        padding: 15em;
-        margin-bottom: -5em;
+    .switch {
+        background-image: url('img/Nat1.jpg');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 25em;
+        position: absolute;
+        top: 10em;
+        left: 0;
+        overflow: auto;
     }
     
-    .box3 {
-        margin-top: 0em;
-        left: 0em;
+    .front {
+        display: none;
+    }
+    
+    #container1 {
+        margin-top: -2em;
     }
 
+    .block {
+        padding: 45%;
+        margin-bottom: -5em;
     }
+
+    #sam {
+        margin-top: 0em;
+        margin-bottom: 10em;
+    }
+
+}
