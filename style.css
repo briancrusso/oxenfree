@@ -234,6 +234,7 @@ body {
 
     .block {
         padding: 45%;
+        margin-bottom: -2em;
     }
 
     #sam {
