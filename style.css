@@ -37,7 +37,7 @@
 }
 
 .block {
-    padding: 23%;
+    padding: 25%;
     display: inline-block;
     margin: 10px;
 }
@@ -93,6 +93,7 @@
     background-repeat: none;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-left: -9em;
 }
 
 #nat:hover {
@@ -104,6 +105,8 @@
     background-repeat: none;
     background-size: contain;
     background-repeat: no-repeat;
+        float: right;
+          margin-right: -3em;
 }
 
 #roger:hover {
@@ -127,7 +130,7 @@
     width: 103%;
     bottom: 0;
     background-color: white;
-    margin-bottom: -5.5em;
+    margin-bottom: -6.5em;
     margin-left: -2em;
 }
 .footer p {
@@ -137,6 +140,8 @@
     color: black;
     margin-left: 1.25em;
     text-transform: uppercase;
+    position: relative;     
+    top: -1em;
 }
 .icons {
     position: relative;
@@ -144,6 +149,8 @@
     margin-bottom: 5em;
     margin-right: 1em;
     float: right;
+    position: relative;     
+    top: -1em;
 }
 .icons a {
     float: right;
@@ -163,6 +170,22 @@ html,
 body {
     height: 100%;
 }
+@media only screen and (max-width: 1030px) {
+    #nat {
+        margin-left: -8em;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    #nat {
+        margin-left: -6em;
+    }
+
+    #roger {
+        margin-right: -2em;
+    }
+}
+
 @media only screen and (max-width: 650px) {
     .logo {
         width: 75%;
@@ -240,6 +263,16 @@ body {
     #sam {
         margin-top: 0em;
         margin-bottom: 10em;
+    }
+
+    #roger {
+        margin-right: 0em;
+        float: none;
+    }
+
+    #nat {
+        margin-left: 0em;
+        float: none;
     }
 
 }
