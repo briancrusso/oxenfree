@@ -263,16 +263,19 @@ body {
     #sam {
         margin-top: 0em;
         margin-bottom: 10em;
+         background-image: url('img/sam_phone.jpg');
     }
 
     #roger {
         margin-right: 0em;
         float: none;
+        background-image: url('img/roger_phone.jpg');
     }
 
     #nat {
         margin-left: 0em;
         float: none;
+        background-image: url('img/nat1_phone.jpg');
     }
 
 }
