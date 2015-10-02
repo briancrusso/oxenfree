@@ -256,26 +256,23 @@ body {
     }
 
     .block {
-        padding: 45%;
+        padding: 55%;
         margin-bottom: -2em;
     }
 
     #sam {
         margin-top: 0em;
         margin-bottom: 10em;
-         background-image: url('img/sam_phone.jpg');
     }
 
     #roger {
         margin-right: 0em;
         float: none;
-        background-image: url('img/roger_phone.jpg');
     }
 
     #nat {
-        margin-left: 0em;
+        margin-left: 0.75em;
         float: none;
-        background-image: url('img/nat1_phone.jpg');
     }
 
 }
